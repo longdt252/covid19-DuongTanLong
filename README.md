@@ -1,24 +1,29 @@
 ## Các thư viện đã dùng
 
 - Tạo project covid19
-  npx create-react-app covid19
+
+  ### `npx create-react-app covid19`
 
 - Kết nối API
-  npm i --save axios
+
+  ### `npm i --save axios`
 
 - Giao diện
-  npm install @material-ui/core
-  npm install @material-ui/lab
+
+  ### `npm install @material-ui/core`
+
+  ### `npm install @material-ui/lab`
 
 - Xử lý vê ngày tháng
-  npm i moment
+
+  ### `npm i moment`
 
 - Xử lý số
-  npm install react-number-format --save
+  ### `npm install react-number-format --save`
 
 ## Cách chạy project
 
-git clone https://github.com/longdt252/covid19-DuongTanLong.git
+### `git clone https://github.com/longdt252/covid19-DuongTanLong.git`
 
 ### `npm install`
 
