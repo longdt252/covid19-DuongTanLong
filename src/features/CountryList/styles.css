@@ -1,0 +1,40 @@
+.frmFilter {
+  margin: 0px 0px 17px 0px;
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 3px;
+}
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon
+  .MuiAutocomplete-inputRoot {
+  padding: 5px 56px 5px 10px;
+  background: #fff;
+}
+
+.btnSearch {
+  width: 100%;
+  height: 100%;
+}
+.cellActive {
+  background: #82919c14;
+}
+.cellRecovered {
+  background: #baff6b4d;
+}
+.cellDeaths {
+  background: #ffefea;
+}
+.cellConfirmed {
+  background: #fafafabd;
+}
+.cellHeader--blue {
+  background: #2196f314;
+}
+.cellHeader--green {
+  background: #baff6b6b;
+}
+.cellHeader--red {
+  background: #f7dbd2;
+}
+.cellHeader--gray {
+  background: #fafafa;
+}

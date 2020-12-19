@@ -1,0 +1,41 @@
+.summary div {
+  border: 1px solid #eee;
+  border-radius: 3px;
+  padding: 16px 24px 16px 14px;
+  text-align: right;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.summary div + div {
+  margin-top: 20px;
+}
+.summary p + p {
+  margin-top: 10px;
+}
+.summary__totalConfirmed {
+  border-right: 5px solid #2196f3 !important;
+}
+.summary__totalRecovered {
+  border-right: 5px solid #8bc34a !important;
+}
+.summary__totalDeaths {
+  border-right: 5px solid#ff5722 !important;
+}
+.summary__title {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+.summary__new span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.clr--blue {
+  color: #2196f3;
+}
+.clr--green {
+  color: #8bc34a;
+}
+.clr--red {
+  color: #ff5722;
+}

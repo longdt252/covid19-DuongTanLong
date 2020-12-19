@@ -1,0 +1,30 @@
+.logo {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+.logo img {
+  max-width: 175px;
+}
+.header {
+  position: relative;
+}
+.btn__Login {
+  position: absolute;
+  right: 0px;
+  top: 13px;
+  height: 44px;
+  font-size: 14px;
+  border: none;
+  padding: 0px 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #6d6e71;
+}
+.btn__Login:hover {
+  background: #a7a8ad;
+  color: #fff;
+  transition: all 0.1s ease-in-out 0.1s;
+  cursor: pointer;
+}
