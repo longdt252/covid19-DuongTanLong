@@ -13,10 +13,10 @@ function App() {
         </Grid>
         <div className="mainContent">
           <Grid container spacing={3}>
-            <Grid item lg={9}>
+            <Grid item lg={9} md={9} xs={12}>
               <CountryList />
             </Grid>
-            <Grid item lg={3}>
+            <Grid item lg={3} md={3} xs={12}>
               <SummaryList />
             </Grid>
           </Grid>

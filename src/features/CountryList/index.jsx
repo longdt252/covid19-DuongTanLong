@@ -110,7 +110,7 @@ function CountryList() {
       <form onSubmit={handleSubmit} className="frmFilter">
         <MuiPickersUtilsProvider utils={DateFnsUtils}>
           <Grid container spacing={3}>
-            <Grid item xs={4}>
+            <Grid item md={4} xs={12}>
               <Autocomplete
                 id="cbb__countries"
                 name="country"
@@ -129,7 +129,7 @@ function CountryList() {
                 )}
               />
             </Grid>
-            <Grid item xs={3}>
+            <Grid item md={3} xs={5}>
               <KeyboardDatePicker
                 disableToolbar
                 variant="inline"
@@ -145,7 +145,7 @@ function CountryList() {
                 autoOk="true"
               />
             </Grid>
-            <Grid item xs={3}>
+            <Grid item md={3} xs={5}>
               <KeyboardDatePicker
                 disableToolbar
                 variant="inline"
@@ -161,7 +161,7 @@ function CountryList() {
                 autoOk="true"
               />
             </Grid>
-            <Grid item xs={2}>
+            <Grid item md={2} xs={2}>
               <Button
                 variant="contained"
                 color="secondary"
