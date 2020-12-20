@@ -129,7 +129,7 @@ function CountryList() {
                 )}
               />
             </Grid>
-            <Grid item md={3} xs={5}>
+            <Grid item md={3} sm={5} xs={6}>
               <KeyboardDatePicker
                 disableToolbar
                 variant="inline"
@@ -145,7 +145,7 @@ function CountryList() {
                 autoOk="true"
               />
             </Grid>
-            <Grid item md={3} xs={5}>
+            <Grid item md={3} sm={5} xs={6}>
               <KeyboardDatePicker
                 disableToolbar
                 variant="inline"
@@ -161,14 +161,14 @@ function CountryList() {
                 autoOk="true"
               />
             </Grid>
-            <Grid item md={2} xs={2}>
+            <Grid item md={2} sm={2} xs={12}>
               <Button
                 variant="contained"
                 color="secondary"
                 type="submit"
                 className="btnSearch"
               >
-                Tìm kiếm
+                Tìm
               </Button>
             </Grid>
           </Grid>
