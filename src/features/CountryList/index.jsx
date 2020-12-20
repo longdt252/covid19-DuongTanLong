@@ -94,7 +94,8 @@ function CountryList() {
     };
     try {
       const res = await countryApi.getByCountryAllStatus(params);
-      setData(res);
+      //console.log(res);
+      setData(res.reverse());
     } catch (error) {
       console.log("Failed:", error.message);
     }
